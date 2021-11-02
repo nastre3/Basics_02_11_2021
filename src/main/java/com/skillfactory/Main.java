@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
         //Arrays
-        /*
+
         System.out.printf("Hi, ");
         int[] arr = {1, 2, 3};
         int[] arr2 = new int[10]; // массив из 10 элементов - нулей
@@ -51,7 +51,7 @@ public class Main {
                break; // выход из цикла
             }
         }
-*/
+/*
         Scanner sc3 = new Scanner(new File("input.txt")); // чтение из файла
         while (sc3.hasNext()) {
             if (sc3.hasNextInt()) {
@@ -59,6 +59,6 @@ public class Main {
             } else if (sc3.next().equals("x")){ // при символе x
                 break; // выход из цикла
             }
-        }
+        }*/
     }
 }
